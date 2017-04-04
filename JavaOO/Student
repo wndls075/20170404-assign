@@ -1,0 +1,16 @@
+public class Student {
+	
+	 String dm;
+	 int scnum;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student student = new Student();
+		student.dm = "컴퓨터정보공학과";
+		student.scnum = 20141642;
+		System.out.println("학과 : " + student.dm);
+		System.out.println("학번 : " + student.scnum);
+		
+	}
+
+}
