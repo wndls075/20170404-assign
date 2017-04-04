@@ -1,15 +1,34 @@
 public class Student {
 	
-	 String dm;
-	 int scnum;
+	private String dm;
+	 
+	 public String getdm(){//getter
+		 return dm;
+	 }
+	 
+	 public void setdm(String dm){//setter
+			this.dm = dm;
+		}
+	 
+	 private int scnum;
+	 
+	 public int getscnum(){//getter
+		 return scnum;
+	 }
+	 
+	 public void setscnum(int scnum){//setter
+			this.scnum = scnum;
+		}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Student student = new Student();
-		student.dm = "컴퓨터정보공학과";
-		student.scnum = 20141642;
-		System.out.println("학과 : " + student.dm);
-		System.out.println("학번 : " + student.scnum);
+		
+		student.setdm("컴퓨터정보공학과");
+		student.setscnum(20141642);
+		
+		System.out.println("학과 : " + student.getdm());
+		System.out.println("학번 : " + student.getscnum());
 		
 	}
 
