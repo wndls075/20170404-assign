@@ -1,0 +1,35 @@
+public class Account {
+	private String owner;
+	private long balance;
+
+	public Account(){		
+ 	}
+ 	public Account(String owner){
+ 		this.owner = owner;
+ 	}
+ 	public Account(long balance){
+ 		this.balance = balance;
+ 	}
+ 	public Account(String owner, long balance){
+ 		this.owner = owner;
+ 		this.balance = balance;
+ 	}
+
+ 	public String getowner(){		
+ 		return owner;
+ 	}
+ 	public void setowner(String owner){
+ 		this.owner = owner;
+ 	}
+ 	public long getbalance(){		
+ 		return balance;
+ 	}
+ 	public void setbalance(long balance){		
+ 		this.balance = balance;
+ 	}
+ 	
+	public static void main(String[] args) {
+		
+
+	}
+}
